@@ -1,0 +1,51 @@
+{
+  "usesTypeScript": false,
+  "usesStyledComponents": false,
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "path": "src/Component",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "src/Templates/TemplateName.jsx",
+        "style": "src/Templates/TemplateName.module.css"
+      }
+    },
+    "page": {
+      "path": "src/Pages",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "src/Templates/TemplateName.jsx",
+        "style": "src/Templates/TemplateName.module.css"
+      }
+    },
+    "layout": {
+      "path": "src/Layout",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "src/Templates/Layout/TemplateName.jsx"
+      }
+    },
+    "context": {
+      "path": "src/Context",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false,
+      "customTemplates": {
+        "component": "src/Templates/Context/TemplateName.jsx"
+      }
+    }
+  },
+  "usesCssModule": true,
+  "cssPreprocessor": "css"
+}
